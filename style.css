@@ -1,0 +1,133 @@
+.target{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid;
+
+}
+.links{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 8px;
+    position: absolute;
+    background-color: red;
+    border: 0.2px solid;
+  
+}
+.game-board{
+    position:absolute;
+    width: 511px;
+    height: 511px;
+    background-color: rgba(0, 0, 0, 0.429);
+    border-radius: 8px;
+    border: 4px solid;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;}
+body{
+    margin: 0;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    background: linear-gradient(180deg,rgb(207, 203, 203) 10%,  rgba(255, 0, 0, 0.537) 100%);
+}
+.game-header{
+width: 511px;
+height: 511px;
+display: flex;
+order: 1;
+
+}
+
+
+.score{
+    font-weight: 1000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    order: 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.level-input, .play-button,.game-over-buttons, .message-container{
+   border-radius: 7px;
+   font-weight: 1000;
+   font-size: 35px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border: 0;
+   background-color: rgba(0, 0, 0, 0.429);
+   color: white;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(0, 0, 0, 0.429);
+
+    width: max-content;
+    height: max-content;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.game-over-buttons{
+    color: white;
+    background-color: rgba(167, 86, 86, 0.596);
+    border: 2px solid ;
+}
+.menu-container{
+    font-weight: 1000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: rgba(0, 0, 0, 0.281);
+    height: max-content;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    align-items: center;  
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    gap: 15px;
+    border: 1px solid black;
+
+}
+.target-size-container, .speed-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgba(235, 62, 62, 0.457);
+    width: 80%;
+    font-size: 25px;
+    border-radius: 18px;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid black;
+
+}
+.menu-header{
+    color: black;
+}
+.play-button-menu{
+    border: 1px solid black;
+    background-color: rgba(235, 62, 62, 0.457);
+    font-weight: 1000;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 15px;
+   color: white;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
