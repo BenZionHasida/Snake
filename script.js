@@ -12,7 +12,7 @@ const windowWidth = 486;
 const snakeHeadSize = 27;
 
 // the size of target
-const targetSize = 40;
+const targetSize = 10;
 
 // initialize variables outside of their functions
 let snakeHead,
