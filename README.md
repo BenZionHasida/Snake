@@ -14,6 +14,9 @@ This project is a web-based version of the classic Snake game. The player contro
 - CSS
 - JavaScript
 
+## Live Site
+Experience the game live at [Snake Game](https://benzionhasida.github.io/Snake/).
+
 ## Setup
 To run this game, simply clone the repository and open the `index.html` file in any modern web browser.
 
@@ -32,4 +35,3 @@ Contributions to the project are welcome. Please follow these steps:
 
 ## Credits
 Developed by Ben Zion Hasida
-
